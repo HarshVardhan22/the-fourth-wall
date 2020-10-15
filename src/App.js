@@ -33,14 +33,14 @@ const App = () => {
     {/* //***********NAVBAR********************* */}
     <div className = "bg1">
        <Container className = "container">
-       <Navbar color="dark" className="nav-color" light expand="md" >
+       <Navbar className="nav-color" light expand="md" fixed="top">
         
         <NavbarBrand href="/"> <img src={logo} alt="" width = "60px" height = "60px"/></NavbarBrand>
         
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler onClick={toggle} className = "text"/>
         
-        <Collapse isOpen={isOpen} navbar> 
-
+        <Collapse isOpen={isOpen} navbar className = "text"> 
+       
           <Nav className = "ml-auto" navbar>
 
             <div style = {{ marginLeft : "20px"}}>
