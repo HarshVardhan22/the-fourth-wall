@@ -1,3 +1,74 @@
 .bg{
-    color : black;
+    color : whitesmoke ;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h1{
+    color: black;
+    margin-top: 100px;
+}
+
+.baseLine{
+    margin: 50px;
+    margin-bottom: 100px;
+    height: 3px;
+    width: 10vw;
+    background-color: black;
+}
+
+.main{
+    background-image: url(../images/bg3.jpg);
+    height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.subContainer{
+    width: 90vh;
+}
+
+.subContainer > * {
+    padding-top: 5%;
+    margin-left: 20%;
+}
+
+.subContainer h3{
+    padding-top: 15% ;
+}
+
+.subContainer button{
+    margin-left: 20%;
+    padding : 10px;
+    margin-top: 5%;
+    background-color: rgb(114, 218, 82);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.customContainer{
+    width: 80vw;
+    margin-left: 10%;
+}
+.below{
+    display: flex;
+    flex-direction: row;
+    background-color: wheat;
+    color: black;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    text-align: center;
+}
+.icons >*{
+    padding-bottom: 4%;
+
 }
