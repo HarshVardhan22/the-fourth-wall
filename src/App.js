@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-
-import ReactDom from "react";
+import React from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -10,7 +8,8 @@ import FrontPage from "./components/FrontPage"
 
 import SecondPage from "./components/second page/SecondPage"
 
-import Items from "./components/second page/Items"
+import ThirdPage from "./components/thirdPage/ThirdPage"
+
 
 const App = () => {
  
@@ -19,7 +18,7 @@ const App = () => {
     <div>
       <FrontPage />
       <SecondPage />
-      
+      <ThirdPage/>
     </div>
   );
 };
