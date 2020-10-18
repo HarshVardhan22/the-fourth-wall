@@ -8,7 +8,9 @@ import "./App.css";
 
 import FrontPage from "./components/FrontPage"
 
-import Items from "./components/Items"
+import SecondPage from "./components/second page/SecondPage"
+
+import Items from "./components/second page/Items"
 
 const App = () => {
  
@@ -16,30 +18,8 @@ const App = () => {
   return (
     <div>
       <FrontPage />
-
-      <div className="bg2">
-        <Items />
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-        <div className="new">fff*20</div>
-      </div>
+      <SecondPage />
+      
     </div>
   );
 };

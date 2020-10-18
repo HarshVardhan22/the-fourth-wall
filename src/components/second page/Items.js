@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom';
 
 import InfiniteCarousel from 'react-leaf-carousel';
 
-import "../App.css";
+import "../../App.css";
 
-import item1 from "./images/item1.png";
-import item2 from "./images/item2.png";
-import item3 from "./images/item3.png";
-import item4 from "./images/item4.png";
-import item5 from "./images/item5.png";
-import item6 from "./images/item6.png";
-import item7 from "./images/item7.png";
-import item8 from "./images/item8.png";
+import item1 from "../images/item1.png";
+import item2 from "../images/item2.png";
+import item3 from "../images/item3.png";
+import item4 from "../images/item4.png";
+import item5 from "../images/item5.png";
+import item6 from "../images/item6.png";
+import item7 from "../images/item7.png";
+import item8 from "../images/item8.png";
 
 const Items = () => {
     return (
@@ -68,7 +68,7 @@ const Items = () => {
             <div>
               <img alt="" src={item8} height="230px" width="auto" />
             </div>
-            document.getElementById('root')
+            
           </InfiniteCarousel>
         </div>
     );};
