@@ -15,10 +15,10 @@ const App = () => {
 
   return (
     <div>
-      
-      <FrontPage/>
-      {/* <Items/> */}
+      <FrontPage />
+
       <div className="bg2">
+        <Items />
         <div className="new">fff*20</div>
         <div className="new">fff*20</div>
         <div className="new">fff*20</div>
