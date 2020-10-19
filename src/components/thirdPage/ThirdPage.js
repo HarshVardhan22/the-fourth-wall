@@ -1,8 +1,13 @@
 import React from "react";
+
 import "./thirdPage.css";
+
 import { ImEarth } from "react-icons/im";
+
 import { AiFillTags } from "react-icons/ai";
+
 import { AiOutlineFileDone } from "react-icons/ai";
+
 import {RiSecurePaymentFill} from "react-icons/ri"
 
 const ThirdPage = () =>{

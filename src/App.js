@@ -10,6 +10,7 @@ import SecondPage from "./components/second page/SecondPage"
 
 import ThirdPage from "./components/thirdPage/ThirdPage"
 
+import Footer from "./components/footer/Footer"
 
 const App = () => {
  
@@ -19,6 +20,7 @@ const App = () => {
       <FrontPage />
       <SecondPage />
       <ThirdPage/>
+      <Footer/>
     </div>
   );
 };
